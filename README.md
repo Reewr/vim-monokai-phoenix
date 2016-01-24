@@ -6,7 +6,7 @@ A different monokai phoenix theme for Vim, based on Monokai-phoenix found in the
 
 Using Plug, you can do the following:
 
-```
+```vim
 Plug 'reewr/vim-monokai-phoenix'
 ```
 
