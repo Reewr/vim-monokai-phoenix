@@ -15,8 +15,8 @@ hi ColorColumn guifg=NONE guibg=#383A3E gui=NONE ctermfg=NONE ctermbg=59 cterm=N
 hi CursorColumn guifg=NONE guibg=#383A3E gui=NONE ctermfg=NONE ctermbg=59 cterm=NONE
 hi CursorLine guifg=NONE guibg=#383A3E gui=NONE ctermfg=NONE ctermbg=59 cterm=NONE
 hi NonText guifg=#49483E guibg=NONE gui=NONE ctermfg=59 ctermbg=NONE cterm=NONE
-hi StatusLine guifg=#75715E guibg=#111111 gui=NONE ctermfg=95 ctermbg=00 cterm=NONE
-hi StatusLineNC guifg=#75715E guibg=#75715E gui=NONE ctermfg=95 ctermbg=95 cterm=NONE
+hi StatusLine guifg=#778899 guibg=#111111 gui=NONE ctermfg=102 ctermbg=00 cterm=NONE
+hi StatusLineNC guifg=#75715E guibg=#778899 gui=NONE ctermfg=95 ctermbg=102 cterm=NONE
 hi TabLine guifg=#F8F8F2 guibg=#211F1C gui=NONE ctermfg=15 ctermbg=00 cterm=NONE
 hi Visual guifg=NONE guibg=#49483E gui=NONE ctermfg=NONE ctermbg=59 cterm=NONE
 hi Search guifg=#000000 guibg=#FFE972 gui=NONE ctermfg=00 ctermbg=221 cterm=NONE
@@ -45,7 +45,7 @@ hi DiffText guifg=#75715E guibg=NONE gui=NONE ctermfg=95 ctermbg=NONE cterm=NONE
 
 " Folding
 " --------------------------
-hi Folded guifg=#75715E guibg=#211F1C gui=NONE ctermfg=95 ctermbg=00 cterm=NONE
+hi Folded guifg=#778899 guibg=#211F1C gui=NONE ctermfg=102 ctermbg=00 cterm=NONE
 hi FoldColumn guifg=NONE guibg=#211F1C gui=NONE ctermfg=NONE ctermbg=00 cterm=NONE
 
 " Popup Menu
@@ -88,9 +88,9 @@ hi Error guifg=#F92672 guibg=#FD5FF1 gui=NONE ctermfg=197 ctermbg=207 cterm=NONE
 
 " Javascript syntax (vim-javascript-syntax)
 " --------------------------
-hi javaScriptSource guifg=#F92782 guibg=NONE gui=NONE ctermfg=198 ctermbg=NONE cterm=NONE
+hi javaScriptSource guifg=#F92672 guibg=NONE gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
 hi javaScriptIdentifier guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
-hi javaScriptOperator guifg=#F92782 guibg=NONE gui=NONE ctermfg=198 ctermbg=NONE cterm=NONE
+hi javaScriptOperator guifg=#F92672 guibg=NONE gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
 hi javaScriptBoolean guifg=#AE81FF guibg=NONE gui=NONE ctermfg=141 ctermbg=NONE cterm=NONE
 hi javaScriptNull guifg=#AE81FF guibg=NONE gui=NONE ctermfg=141 ctermbg=NONE cterm=NONE
 hi javaScriptMessage guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
@@ -101,18 +101,18 @@ hi javaScriptRepeat guifg=#F92672 guibg=NONE gui=NONE ctermfg=197 ctermbg=NONE c
 hi javaScriptBranch guifg=#F92672 guibg=NONE gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
 hi javaScriptLabel guifg=#F92672 guibg=NONE gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
 hi javaScriptPrototype guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
-hi javaScriptStatement guifg=#F92782 guibg=NONE gui=NONE ctermfg=198 ctermbg=NONE cterm=NONE
+hi javaScriptStatement guifg=#F92672 guibg=NONE gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
 hi javaScriptGlobalObjects guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
-hi javaScriptExceptions guifg=#F92782 guibg=NONE gui=NONE ctermfg=198 ctermbg=NONE cterm=NONE
+hi javaScriptExceptions guifg=#F92672 guibg=NONE gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
 hi javaScriptReserved guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
-hi javaScriptCommentToDo guifg=#75715E guibg=NONE gui=NONE ctermfg=95 ctermbg=NONE cterm=NONE
-hi javaScriptLineComment guifg=#75715E guibg=NONE gui=NONE ctermfg=95 ctermbg=NONE cterm=NONE
-hi javaScriptCommentSkip guifg=#75715E guibg=NONE gui=NONE ctermfg=95 ctermbg=NONE cterm=NONE
-hi javaScriptComment guifg=#75715E guibg=NONE gui=NONE ctermfg=95 ctermbg=NONE cterm=NONE
-hi javaScriptDocComment guifg=#75715E guibg=NONE gui=NONE ctermfg=95 ctermbg=NONE cterm=NONE
-hi javaScriptDocTags guifg=#75715E guibg=NONE gui=NONE ctermfg=95 ctermbg=NONE cterm=NONE
-hi javaScriptDocParam guifg=#75715E guibg=NONE gui=NONE ctermfg=95 ctermbg=NONE cterm=NONE
-hi javaScriptDocSeeTag guifg=#75715E guibg=NONE gui=NONE ctermfg=95 ctermbg=NONE cterm=NONE
+hi javaScriptCommentToDo guifg=#778899 guibg=NONE gui=NONE ctermfg=102 ctermbg=NONE cterm=NONE
+hi javaScriptLineComment guifg=#778899 guibg=NONE gui=NONE ctermfg=102 ctermbg=NONE cterm=NONE
+hi javaScriptCommentSkip guifg=#778899 guibg=NONE gui=NONE ctermfg=102 ctermbg=NONE cterm=NONE
+hi javaScriptComment guifg=#778899 guibg=NONE gui=NONE ctermfg=102 ctermbg=NONE cterm=NONE
+hi javaScriptDocComment guifg=#778899 guibg=NONE gui=NONE ctermfg=102 ctermbg=NONE cterm=NONE
+hi javaScriptDocTags guifg=#778899 guibg=NONE gui=NONE ctermfg=102 ctermbg=NONE cterm=NONE
+hi javaScriptDocParam guifg=#778899 guibg=NONE gui=NONE ctermfg=102 ctermbg=NONE cterm=NONE
+hi javaScriptDocSeeTag guifg=#778899 guibg=NONE gui=NONE ctermfg=102 ctermbg=NONE cterm=NONE
 hi javaScriptSpecial guifg=#E6DB74 guibg=NONE gui=NONE ctermfg=186 ctermbg=NONE cterm=NONE
 hi javaScriptString guifg=#E6DB74 guibg=NONE gui=NONE ctermfg=186 ctermbg=NONE cterm=NONE
 hi javascriptSpecialCharacter guifg=#E6DB74 guibg=NONE gui=NONE ctermfg=186 ctermbg=NONE cterm=NONE
