@@ -115,7 +115,7 @@ hi javaScriptDocParam guifg=#778899 guibg=NONE gui=NONE ctermfg=102 ctermbg=NONE
 hi javaScriptDocSeeTag guifg=#778899 guibg=NONE gui=NONE ctermfg=102 ctermbg=NONE cterm=NONE
 hi javaScriptSpecial guifg=#E6DB74 guibg=NONE gui=NONE ctermfg=186 ctermbg=NONE cterm=NONE
 hi javaScriptString guifg=#E6DB74 guibg=NONE gui=NONE ctermfg=186 ctermbg=NONE cterm=NONE
-hi javascriptSpecialCharacter guifg=#E6DB74 guibg=NONE gui=NONE ctermfg=186 ctermbg=NONE cterm=NONE
+hi javaScriptSpecialCharacter guifg=#E6DB74 guibg=NONE gui=NONE ctermfg=186 ctermbg=NONE cterm=NONE
 hi javaScriptNumber guifg=#AE81FF guibg=NONE gui=NONE ctermfg=141 ctermbg=NONE cterm=NONE
 hi javaScriptRegexpString guifg=#E6DB74 guibg=NONE gui=NONE ctermfg=186 ctermbg=NONE cterm=NONE
 hi javaScriptFloat guifg=#AE81FF guibg=NONE gui=NONE ctermfg=141 ctermbg=NONE cterm=NONE
@@ -156,7 +156,7 @@ hi javaScriptTemplateDelim guifg=#E6DB74 guibg=NONE gui=NONE ctermfg=186 ctermbg
 hi javaScriptTemplateVar guifg=#E6DB74 guibg=NONE gui=NONE ctermfg=186 ctermbg=NONE cterm=NONE
 hi javaScriptTemplateString guifg=#E6DB74 guibg=NONE gui=NONE ctermfg=186 ctermbg=NONE cterm=NONE
 
-" 
+" JSON Syntax
 " --------------------------
 hi jsonNull guifg=#AE81FF guibg=NONE gui=NONE ctermfg=141 ctermbg=NONE cterm=NONE
 hi jsonKeyword guifg=#F8F8F2 guibg=NONE gui=NONE ctermfg=15 ctermbg=NONE cterm=NONE
