@@ -1,6 +1,6 @@
 " Maintainer: Alexander Imenes <alexander.imenes@gmail.com>
 " URL: http://github.com/reewr
-" VERSION: 1.3.1
+" VERSION: 1.3.2
 
 set background=dark
 hi clear
@@ -22,7 +22,7 @@ hi StatusLineNC guifg=#75715E guibg=#778899 gui=NONE ctermfg=95 ctermbg=102 cter
 hi TabLine guifg=#F8F8F2 guibg=#211F1C gui=NONE ctermfg=15 ctermbg=00 cterm=NONE
 hi Visual guifg=NONE guibg=#49483E gui=NONE ctermfg=NONE ctermbg=59 cterm=NONE
 hi Search guifg=#000000 guibg=#FFE972 gui=NONE ctermfg=00 ctermbg=221 cterm=NONE
-hi MatchParan guifg=#111111 guibg=#E6DB74 gui=NONE ctermfg=232 ctermbg=186 cterm=NONE
+hi MatchParen guifg=#111111 guibg=#E6DB74 gui=NONE ctermfg=232 ctermbg=186 cterm=NONE
 hi Question guifg=#E6DB74 guibg=NONE gui=NONE ctermfg=186 ctermbg=NONE cterm=NONE
 hi ModeMsg guifg=#E6DB74 guibg=NONE gui=NONE ctermfg=186 ctermbg=NONE cterm=NONE
 hi MoreMsg guifg=#E6DB74 guibg=NONE gui=NONE ctermfg=186 ctermbg=NONE cterm=NONE
