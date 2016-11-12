@@ -14,5 +14,10 @@ Then do :PlugInstall and you're good to go
 
 ## Screenshot
 
-![vim-monokai-phoenix example](./screenshot.png)
+Example in GVIM / Terminal with True color
+
+![vim-monokai-phoenix gui](./screenshot.png)
+
+Example in terminal using 256 colors
+![vim-monokai-phoenix terminal](./screenshot-terminal.png)
 
