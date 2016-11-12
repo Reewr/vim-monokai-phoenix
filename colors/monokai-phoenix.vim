@@ -1,6 +1,6 @@
 " Maintainer: Alexander Imenes <alexander.imenes@gmail.com>
 " URL: http://github.com/reewr
-" VERSION: 1.1
+" VERSION: 1.2
 
 set background=dark
 hi clear
@@ -106,11 +106,11 @@ hi jsEnvComment guifg=#75715E guibg=NONE gui=italic ctermfg=95 ctermbg=NONE cter
 hi jsCvsTag guifg=#75715E guibg=NONE gui=italic ctermfg=95 ctermbg=NONE cterm=italic
 hi jsComment guifg=#75715E guibg=NONE gui=italic ctermfg=95 ctermbg=NONE cterm=italic
 hi jsBlockComment guifg=#75715E guibg=NONE gui=italic ctermfg=95 ctermbg=NONE cterm=italic
-hi jsDocTags guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
-hi jsDocType guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
-hi jsDocTypeNoParam guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
-hi jsDocParam guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
-hi jsDocSeeTag guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
+hi jsDocTags guifg=#778899 guibg=NONE gui=NONE ctermfg=102 ctermbg=NONE cterm=NONE
+hi jsDocType guifg=#778899 guibg=NONE gui=NONE ctermfg=102 ctermbg=NONE cterm=NONE
+hi jsDocTypeNoParam guifg=#778899 guibg=NONE gui=NONE ctermfg=102 ctermbg=NONE cterm=NONE
+hi jsDocParam guifg=#778899 guibg=NONE gui=NONE ctermfg=102 ctermbg=NONE cterm=NONE
+hi jsDocSeeTag guifg=#778899 guibg=NONE gui=NONE ctermfg=102 ctermbg=NONE cterm=NONE
 hi jsTemplateVar guifg=#E6DB74 guibg=NONE gui=NONE ctermfg=186 ctermbg=NONE cterm=NONE
 hi jsStringD guifg=#E6DB74 guibg=NONE gui=NONE ctermfg=186 ctermbg=NONE cterm=NONE
 hi jsStringS guifg=#E6DB74 guibg=NONE gui=NONE ctermfg=186 ctermbg=NONE cterm=NONE
