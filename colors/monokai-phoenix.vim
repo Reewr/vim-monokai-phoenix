@@ -12,20 +12,20 @@ endif
 " Editor
 " --------------------------
 hi Normal guifg=#F8F8F2 guibg=#111111 gui=NONE ctermfg=15 ctermbg=232 cterm=NONE
-hi ColorColumn guifg=NONE guibg=#383A3E gui=NONE ctermfg=NONE ctermbg=59 cterm=NONE
-hi CursorColumn guifg=NONE guibg=#383A3E gui=NONE ctermfg=NONE ctermbg=59 cterm=NONE
-hi CursorLine guifg=NONE guibg=#383A3E gui=NONE ctermfg=NONE ctermbg=59 cterm=NONE
+hi ColorColumn guifg=NONE guibg=#383A3E gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE
+hi CursorColumn guifg=NONE guibg=#383A3E gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE
+hi CursorLine guifg=NONE guibg=#383A3E gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE
 hi NonText guifg=#49483E guibg=NONE gui=NONE ctermfg=59 ctermbg=NONE cterm=NONE
-hi StatusLine guifg=#778899 guibg=#111111 gui=NONE ctermfg=102 ctermbg=00 cterm=NONE
+hi StatusLine guifg=#778899 guibg=#111111 gui=NONE ctermfg=102 ctermbg=232 cterm=NONE
 hi StatusLineNC guifg=#75715E guibg=#778899 gui=NONE ctermfg=95 ctermbg=102 cterm=NONE
 hi TabLine guifg=#F8F8F2 guibg=#211F1C gui=NONE ctermfg=15 ctermbg=00 cterm=NONE
 hi Visual guifg=NONE guibg=#49483E gui=NONE ctermfg=NONE ctermbg=59 cterm=NONE
 hi Search guifg=#000000 guibg=#FFE972 gui=NONE ctermfg=00 ctermbg=221 cterm=NONE
-hi MatchParan guifg=#111111 guibg=#E6DB74 gui=NONE ctermfg=00 ctermbg=186 cterm=NONE
+hi MatchParan guifg=#111111 guibg=#E6DB74 gui=NONE ctermfg=232 ctermbg=186 cterm=NONE
 hi Question guifg=#E6DB74 guibg=NONE gui=NONE ctermfg=186 ctermbg=NONE cterm=NONE
 hi ModeMsg guifg=#E6DB74 guibg=NONE gui=NONE ctermfg=186 ctermbg=NONE cterm=NONE
 hi MoreMsg guifg=#E6DB74 guibg=NONE gui=NONE ctermfg=186 ctermbg=NONE cterm=NONE
-hi ErrorMsg guifg=#111111 guibg=#F92672 gui=NONE ctermfg=00 ctermbg=197 cterm=NONE
+hi ErrorMsg guifg=#111111 guibg=#F92672 gui=NONE ctermfg=232 ctermbg=197 cterm=NONE
 hi WarningMsg guifg=#F92672 guibg=NONE gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
 hi VertSplit guifg=#75715E guibg=NONE gui=NONE ctermfg=95 ctermbg=NONE cterm=NONE
 hi LineNr guifg=#8F908A guibg=NONE gui=NONE ctermfg=102 ctermbg=NONE cterm=NONE
@@ -52,7 +52,7 @@ hi FoldColumn guifg=NONE guibg=#211F1C gui=NONE ctermfg=NONE ctermbg=00 cterm=NO
 " Popup Menu
 " --------------------------
 hi Pmenu guifg=#2F312B guibg=#F8F8F2 gui=NONE ctermfg=22 ctermbg=15 cterm=NONE
-hi PmenuSet guifg=#66D9EF guibg=#111111 gui=NONE ctermfg=81 ctermbg=00 cterm=NONE
+hi PmenuSet guifg=#66D9EF guibg=#111111 gui=NONE ctermfg=81 ctermbg=232 cterm=NONE
 hi PMenuThumb guifg=#2F312B guibg=#8F908A gui=NONE ctermfg=22 ctermbg=102 cterm=NONE
 
 " General Highlighting
