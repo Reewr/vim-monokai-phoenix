@@ -1,6 +1,6 @@
 " Maintainer: Alexander Imenes <alexander.imenes@gmail.com>
 " URL: http://github.com/reewr
-" VERSION: 1.0
+" VERSION: 1.1
 
 set background=dark
 hi clear
@@ -81,6 +81,7 @@ hi PreCondit guifg=#A6E22E guibg=NONE gui=NONE ctermfg=148 ctermbg=NONE cterm=NO
 hi Special guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
 hi SpecialChar guifg=#F92782 guibg=NONE gui=NONE ctermfg=198 ctermbg=NONE cterm=NONE
 hi Delimiter guifg=#F92782 guibg=NONE gui=NONE ctermfg=198 ctermbg=NONE cterm=NONE
+hi Comment guifg=#75715E guibg=NONE gui=italic ctermfg=95 ctermbg=NONE cterm=italic
 hi SpecialComment guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
 hi Tag guifg=#F92782 guibg=NONE gui=NONE ctermfg=198 ctermbg=NONE cterm=NONE
 hi Underlined guifg=#A6E22E guibg=NONE gui=NONE ctermfg=148 ctermbg=NONE cterm=NONE
@@ -100,16 +101,16 @@ hi jsArgsObj guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NON
 hi jsImportContainer guifg=#F92672 guibg=NONE gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
 hi jsExportContainer guifg=#F92672 guibg=NONE gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
 hi jsCommentTodo guifg=#778899 guibg=NONE gui=NONE ctermfg=102 ctermbg=NONE cterm=NONE
-hi jsLineComment guifg=#778899 guibg=NONE gui=NONE ctermfg=102 ctermbg=NONE cterm=NONE
-hi jsEnvComment guifg=#778899 guibg=NONE gui=NONE ctermfg=102 ctermbg=NONE cterm=NONE
-hi jsCvsTag guifg=#778899 guibg=NONE gui=NONE ctermfg=102 ctermbg=NONE cterm=NONE
-hi jsComment guifg=#778899 guibg=NONE gui=NONE ctermfg=102 ctermbg=NONE cterm=NONE
-hi jsBlockComment guifg=#778899 guibg=NONE gui=NONE ctermfg=102 ctermbg=NONE cterm=NONE
-hi jsDocTags guifg=#778899 guibg=NONE gui=NONE ctermfg=102 ctermbg=NONE cterm=NONE
-hi jsDocType guifg=#778899 guibg=NONE gui=NONE ctermfg=102 ctermbg=NONE cterm=NONE
-hi jsDocTypeNoParam guifg=#778899 guibg=NONE gui=NONE ctermfg=102 ctermbg=NONE cterm=NONE
-hi jsDocParam guifg=#778899 guibg=NONE gui=NONE ctermfg=102 ctermbg=NONE cterm=NONE
-hi jsDocSeeTag guifg=#778899 guibg=NONE gui=NONE ctermfg=102 ctermbg=NONE cterm=NONE
+hi jsLineComment guifg=#75715E guibg=NONE gui=italic ctermfg=95 ctermbg=NONE cterm=italic
+hi jsEnvComment guifg=#75715E guibg=NONE gui=italic ctermfg=95 ctermbg=NONE cterm=italic
+hi jsCvsTag guifg=#75715E guibg=NONE gui=italic ctermfg=95 ctermbg=NONE cterm=italic
+hi jsComment guifg=#75715E guibg=NONE gui=italic ctermfg=95 ctermbg=NONE cterm=italic
+hi jsBlockComment guifg=#75715E guibg=NONE gui=italic ctermfg=95 ctermbg=NONE cterm=italic
+hi jsDocTags guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
+hi jsDocType guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
+hi jsDocTypeNoParam guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
+hi jsDocParam guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
+hi jsDocSeeTag guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
 hi jsTemplateVar guifg=#E6DB74 guibg=NONE gui=NONE ctermfg=186 ctermbg=NONE cterm=NONE
 hi jsStringD guifg=#E6DB74 guibg=NONE gui=NONE ctermfg=186 ctermbg=NONE cterm=NONE
 hi jsStringS guifg=#E6DB74 guibg=NONE gui=NONE ctermfg=186 ctermbg=NONE cterm=NONE
