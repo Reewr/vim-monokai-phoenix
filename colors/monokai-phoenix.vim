@@ -88,7 +88,7 @@ hi SpecialComment guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cter
 hi Tag guifg=#F92782 guibg=NONE gui=NONE ctermfg=198 ctermbg=NONE cterm=NONE
 hi Underlined guifg=#A6E22E guibg=NONE gui=NONE ctermfg=148 ctermbg=NONE cterm=NONE
 hi Ignore guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
-hi Error guifg=#F92672 guibg=#FD5FF1 gui=NONE ctermfg=197 ctermbg=207 cterm=NONE
+hi Error guifg=#F8F8F2 guibg=#960020 gui=NONE ctermfg=15 ctermbg=88 cterm=NONE
 
 " vim-javascript syntax
 " --------------------------
