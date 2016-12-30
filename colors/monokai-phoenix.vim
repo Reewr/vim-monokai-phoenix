@@ -1,6 +1,6 @@
 " Maintainer: Alexander Imenes <alexander.imenes@gmail.com>
 " URL: http://github.com/reewr
-" VERSION: 1.3.3
+" VERSION: 1.3.4
 
 set background=dark
 hi clear
@@ -169,4 +169,16 @@ hi jsonNull guifg=#AE81FF guibg=NONE gui=NONE ctermfg=141 ctermbg=NONE cterm=NON
 hi jsonKeyword guifg=#F8F8F2 guibg=NONE gui=NONE ctermfg=15 ctermbg=NONE cterm=NONE
 hi jsonPadding guifg=#F8F8F2 guibg=NONE gui=NONE ctermfg=15 ctermbg=NONE cterm=NONE
 hi jsonBraces guifg=#F8F8F2 guibg=NONE gui=NONE ctermfg=15 ctermbg=NONE cterm=NONE
+
+" Purescript Syntax
+" --------------------------
+hi purescriptImportKeyword guifg=#F92782 guibg=NONE gui=NONE ctermfg=198 ctermbg=NONE cterm=NONE
+hi purescriptConstructor guifg=#AE81FF guibg=NONE gui=NONE ctermfg=141 ctermbg=NONE cterm=NONE
+hi purescriptConstructorDecl guifg=#AE81FF guibg=NONE gui=NONE ctermfg=141 ctermbg=NONE cterm=NONE
+hi purescriptTypeAlias guifg=#AE81FF guibg=NONE gui=NONE ctermfg=141 ctermbg=NONE cterm=NONE
+hi purescriptModuleKeyword guifg=#F92782 guibg=NONE gui=NONE ctermfg=198 ctermbg=NONE cterm=NONE
+hi purescriptWhere guifg=#F92782 guibg=NONE gui=NONE ctermfg=198 ctermbg=NONE cterm=NONE
+hi purescriptData guifg=#F92782 guibg=NONE gui=NONE ctermfg=198 ctermbg=NONE cterm=NONE
+hi purescriptTypeVar guifg=#F8F8F2 guibg=NONE gui=NONE ctermfg=15 ctermbg=NONE cterm=NONE
+hi purescriptDelimiter guifg=#F8F8F2 guibg=NONE gui=NONE ctermfg=15 ctermbg=NONE cterm=NONE
 
