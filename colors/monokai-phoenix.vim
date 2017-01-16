@@ -1,6 +1,6 @@
 " Maintainer: Alexander Imenes <alexander.imenes@gmail.com>
 " URL: http://github.com/reewr
-" VERSION: 1.3.4
+" VERSION: 1.3.5
 
 set background=dark
 hi clear
@@ -17,8 +17,8 @@ hi ColorColumn guifg=NONE guibg=#383A3E gui=NONE ctermfg=NONE ctermbg=236 cterm=
 hi CursorColumn guifg=NONE guibg=#383A3E gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE
 hi CursorLine guifg=NONE guibg=#383A3E gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE
 hi NonText guifg=#49483E guibg=NONE gui=NONE ctermfg=59 ctermbg=NONE cterm=NONE
-hi StatusLine guifg=#778899 guibg=#111111 gui=NONE ctermfg=102 ctermbg=232 cterm=NONE
-hi StatusLineNC guifg=#75715E guibg=#778899 gui=NONE ctermfg=95 ctermbg=102 cterm=NONE
+hi StatusLine guifg=#66D9EF guibg=#111111 gui=NONE ctermfg=81 ctermbg=232 cterm=NONE
+hi StatusLineNC guifg=#778899 guibg=#111111 gui=NONE ctermfg=102 ctermbg=232 cterm=NONE
 hi TabLine guifg=#F8F8F2 guibg=#211F1C gui=NONE ctermfg=15 ctermbg=00 cterm=NONE
 hi Visual guifg=NONE guibg=#49483E gui=NONE ctermfg=NONE ctermbg=59 cterm=NONE
 hi Search guifg=#000000 guibg=#FFE972 gui=NONE ctermfg=00 ctermbg=221 cterm=NONE
