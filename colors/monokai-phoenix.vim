@@ -70,24 +70,24 @@ hi Type guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
 hi Structure guifg=#F92782 guibg=NONE gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
 hi StorageClass guifg=#F92782 guibg=NONE gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
 hi TypeDef guifg=#F92782 guibg=NONE gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
-hi Identifier guifg=#A6E22E guibg=NONE gui=NONE ctermfg=148 ctermbg=NONE cterm=NONE
-hi Function guifg=#A6E22E guibg=NONE gui=NONE ctermfg=148 ctermbg=NONE cterm=NONE
+hi Identifier guifg=#A6E22E guibg=NONE gui=NONE ctermfg=154 ctermbg=NONE cterm=NONE
+hi Function guifg=#A6E22E guibg=NONE gui=NONE ctermfg=154 ctermbg=NONE cterm=NONE
 hi Statement guifg=#F92782 guibg=NONE gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
 hi Operator guifg=#F92782 guibg=NONE gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
 hi Label guifg=#F92782 guibg=NONE gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
 hi Keyword guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
-hi Preproc guifg=#A6E22E guibg=NONE gui=NONE ctermfg=148 ctermbg=NONE cterm=NONE
+hi Preproc guifg=#A6E22E guibg=NONE gui=NONE ctermfg=154 ctermbg=NONE cterm=NONE
 hi Include guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
 hi Define guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
-hi Macro guifg=#A6E22E guibg=NONE gui=NONE ctermfg=148 ctermbg=NONE cterm=NONE
-hi PreCondit guifg=#A6E22E guibg=NONE gui=NONE ctermfg=148 ctermbg=NONE cterm=NONE
+hi Macro guifg=#A6E22E guibg=NONE gui=NONE ctermfg=154 ctermbg=NONE cterm=NONE
+hi PreCondit guifg=#A6E22E guibg=NONE gui=NONE ctermfg=154 ctermbg=NONE cterm=NONE
 hi Special guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
 hi SpecialChar guifg=#F92782 guibg=NONE gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
 hi Delimiter guifg=#F92782 guibg=NONE gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
-hi Comment guifg=#75715E guibg=NONE gui=italic ctermfg=102 ctermbg=NONE cterm=italic
+hi Comment guifg=#75715E guibg=NONE gui=italic ctermfg=67 ctermbg=NONE cterm=italic
 hi SpecialComment guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
 hi Tag guifg=#F92782 guibg=NONE gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
-hi Underlined guifg=#A6E22E guibg=NONE gui=NONE ctermfg=148 ctermbg=NONE cterm=NONE
+hi Underlined guifg=#A6E22E guibg=NONE gui=NONE ctermfg=154 ctermbg=NONE cterm=NONE
 hi Ignore guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi Error guifg=#F8F8F2 guibg=#960020 gui=NONE ctermfg=15 ctermbg=88 cterm=NONE
 
@@ -104,11 +104,11 @@ hi jsArgsObj guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NON
 hi jsImportContainer guifg=#F92672 guibg=NONE gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
 hi jsExportContainer guifg=#F92672 guibg=NONE gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
 hi jsCommentTodo guifg=#778899 guibg=NONE gui=NONE ctermfg=103 ctermbg=NONE cterm=NONE
-hi jsLineComment guifg=#75715E guibg=NONE gui=italic ctermfg=102 ctermbg=NONE cterm=italic
-hi jsEnvComment guifg=#75715E guibg=NONE gui=italic ctermfg=102 ctermbg=NONE cterm=italic
-hi jsCvsTag guifg=#75715E guibg=NONE gui=italic ctermfg=102 ctermbg=NONE cterm=italic
-hi jsComment guifg=#75715E guibg=NONE gui=italic ctermfg=102 ctermbg=NONE cterm=italic
-hi jsBlockComment guifg=#75715E guibg=NONE gui=italic ctermfg=102 ctermbg=NONE cterm=italic
+hi jsLineComment guifg=#75715E guibg=NONE gui=italic ctermfg=67 ctermbg=NONE cterm=italic
+hi jsEnvComment guifg=#75715E guibg=NONE gui=italic ctermfg=67 ctermbg=NONE cterm=italic
+hi jsCvsTag guifg=#75715E guibg=NONE gui=italic ctermfg=67 ctermbg=NONE cterm=italic
+hi jsComment guifg=#75715E guibg=NONE gui=italic ctermfg=67 ctermbg=NONE cterm=italic
+hi jsBlockComment guifg=#75715E guibg=NONE gui=italic ctermfg=67 ctermbg=NONE cterm=italic
 hi jsDocTags guifg=#778899 guibg=NONE gui=NONE ctermfg=103 ctermbg=NONE cterm=NONE
 hi jsDocType guifg=#778899 guibg=NONE gui=NONE ctermfg=103 ctermbg=NONE cterm=NONE
 hi jsDocTypeNoParam guifg=#778899 guibg=NONE gui=NONE ctermfg=103 ctermbg=NONE cterm=NONE
@@ -131,9 +131,9 @@ hi jsRegexpString guifg=#E6DB74 guibg=NONE gui=NONE ctermfg=185 ctermbg=NONE cte
 hi jsNumber guifg=#AE81FF guibg=NONE gui=NONE ctermfg=141 ctermbg=NONE cterm=NONE
 hi jsFloat guifg=#AE81FF guibg=NONE gui=NONE ctermfg=141 ctermbg=NONE cterm=NONE
 hi jsObjectKey guifg=#E6DB74 guibg=NONE gui=NONE ctermfg=185 ctermbg=NONE cterm=NONE
-hi jsFunctionKey guifg=#A6E22E guibg=NONE gui=NONE ctermfg=148 ctermbg=NONE cterm=NONE
-hi jsDecorator guifg=#A6E22E guibg=NONE gui=NONE ctermfg=148 ctermbg=NONE cterm=NONE
-hi jsDecoratorFunction guifg=#A6E22E guibg=NONE gui=NONE ctermfg=148 ctermbg=NONE cterm=NONE
+hi jsFunctionKey guifg=#A6E22E guibg=NONE gui=NONE ctermfg=154 ctermbg=NONE cterm=NONE
+hi jsDecorator guifg=#A6E22E guibg=NONE gui=NONE ctermfg=154 ctermbg=NONE cterm=NONE
+hi jsDecoratorFunction guifg=#A6E22E guibg=NONE gui=NONE ctermfg=154 ctermbg=NONE cterm=NONE
 hi jsStatement guifg=#F92672 guibg=NONE gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
 hi jsConditional guifg=#F92672 guibg=NONE gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
 hi jsRepeat guifg=#F92672 guibg=NONE gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
@@ -148,20 +148,20 @@ hi jsFutureKeys guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=
 hi jsHtmlEvents guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
 hi jsTernaryIf guifg=#F92672 guibg=NONE gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
 hi jsGenerator guifg=#F92672 guibg=NONE gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
-hi jsFuncName guifg=#A6E22E guibg=NONE gui=NONE ctermfg=148 ctermbg=NONE cterm=NONE
+hi jsFuncName guifg=#A6E22E guibg=NONE gui=NONE ctermfg=154 ctermbg=NONE cterm=NONE
 hi jsFuncArgs guifg=#FD971F guibg=NONE gui=NONE ctermfg=208 ctermbg=NONE cterm=NONE
 hi jsFuncArgRest guifg=#F92672 guibg=NONE gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
 hi jsArrowFunction guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
-hi jsFuncCall guifg=#A6E22E guibg=NONE gui=NONE ctermfg=148 ctermbg=NONE cterm=NONE
+hi jsFuncCall guifg=#A6E22E guibg=NONE gui=NONE ctermfg=154 ctermbg=NONE cterm=NONE
 
 " Custom syntax
 " --------------------------
-hi javaScriptMethodCallWithoutArgs guifg=#A6E22E guibg=NONE gui=NONE ctermfg=148 ctermbg=NONE cterm=NONE
-hi javaScriptMethodCallWithArgs guifg=#A6E22E guibg=NONE gui=NONE ctermfg=148 ctermbg=NONE cterm=NONE
-hi javaScriptStaticFunctionWithArgs guifg=#A6E22E guibg=NONE gui=NONE ctermfg=148 ctermbg=NONE cterm=NONE
-hi javaScriptStaticFunctionWithoutArgs guifg=#A6E22E guibg=NONE gui=NONE ctermfg=148 ctermbg=NONE cterm=NONE
-hi javaScriptFunctionCallWithArgs guifg=#A6E22E guibg=NONE gui=NONE ctermfg=148 ctermbg=NONE cterm=NONE
-hi javaScriptFunctionCallWithoutArgs guifg=#A6E22E guibg=NONE gui=NONE ctermfg=148 ctermbg=NONE cterm=NONE
+hi javaScriptMethodCallWithoutArgs guifg=#A6E22E guibg=NONE gui=NONE ctermfg=154 ctermbg=NONE cterm=NONE
+hi javaScriptMethodCallWithArgs guifg=#A6E22E guibg=NONE gui=NONE ctermfg=154 ctermbg=NONE cterm=NONE
+hi javaScriptStaticFunctionWithArgs guifg=#A6E22E guibg=NONE gui=NONE ctermfg=154 ctermbg=NONE cterm=NONE
+hi javaScriptStaticFunctionWithoutArgs guifg=#A6E22E guibg=NONE gui=NONE ctermfg=154 ctermbg=NONE cterm=NONE
+hi javaScriptFunctionCallWithArgs guifg=#A6E22E guibg=NONE gui=NONE ctermfg=154 ctermbg=NONE cterm=NONE
+hi javaScriptFunctionCallWithoutArgs guifg=#A6E22E guibg=NONE gui=NONE ctermfg=154 ctermbg=NONE cterm=NONE
 hi javaScriptArrowFunction guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
 
 " JSON Syntax
