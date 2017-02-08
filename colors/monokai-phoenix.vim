@@ -1,13 +1,14 @@
 " Maintainer: Alexander Imenes <alexander.imenes@gmail.com>
-" URL: http://github.com/reewr
-" VERSION: 1.3.5
-
+" URL       : http://github.com/reewr
+" VERSION   : 1.3.6
 set background=dark
 hi clear
 
 if exists("syntax_on")
   syntax reset
 endif
+
+let colors_name="monokai-phoenix"
 
 " Editor
 " --------------------------
