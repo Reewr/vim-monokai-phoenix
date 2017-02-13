@@ -98,7 +98,7 @@ hi PreCondit guifg=#A6E22E guibg=NONE gui=NONE ctermfg=112 ctermbg=NONE cterm=NO
 hi Special guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
 hi SpecialChar guifg=#F92782 guibg=NONE gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
 hi Delimiter guifg=#F92782 guibg=NONE gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
-hi Comment guifg=#75715E guibg=NONE gui=italic ctermfg=67 ctermbg=NONE cterm=italic
+hi Comment guifg=#5F87AF guibg=NONE gui=italic ctermfg=67 ctermbg=NONE cterm=italic
 hi SpecialComment guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
 hi Tag guifg=#F92782 guibg=NONE gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
 hi Underlined guifg=#A6E22E guibg=NONE gui=NONE ctermfg=112 ctermbg=NONE cterm=NONE
@@ -119,11 +119,11 @@ function! s:javascriptMonokaiPhoenixFiletype()
   hi jsImportContainer guifg=#F92672 guibg=NONE gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
   hi jsExportContainer guifg=#F92672 guibg=NONE gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
   hi jsCommentTodo guifg=#778899 guibg=NONE gui=NONE ctermfg=103 ctermbg=NONE cterm=NONE
-  hi jsLineComment guifg=#75715E guibg=NONE gui=italic ctermfg=67 ctermbg=NONE cterm=italic
-  hi jsEnvComment guifg=#75715E guibg=NONE gui=italic ctermfg=67 ctermbg=NONE cterm=italic
-  hi jsCvsTag guifg=#75715E guibg=NONE gui=italic ctermfg=67 ctermbg=NONE cterm=italic
-  hi jsComment guifg=#75715E guibg=NONE gui=italic ctermfg=67 ctermbg=NONE cterm=italic
-  hi jsBlockComment guifg=#75715E guibg=NONE gui=italic ctermfg=67 ctermbg=NONE cterm=italic
+  hi jsLineComment guifg=#5F87AF guibg=NONE gui=italic ctermfg=67 ctermbg=NONE cterm=italic
+  hi jsEnvComment guifg=#5F87AF guibg=NONE gui=italic ctermfg=67 ctermbg=NONE cterm=italic
+  hi jsCvsTag guifg=#5F87AF guibg=NONE gui=italic ctermfg=67 ctermbg=NONE cterm=italic
+  hi jsComment guifg=#5F87AF guibg=NONE gui=italic ctermfg=67 ctermbg=NONE cterm=italic
+  hi jsBlockComment guifg=#5F87AF guibg=NONE gui=italic ctermfg=67 ctermbg=NONE cterm=italic
   hi jsDocTags guifg=#778899 guibg=NONE gui=NONE ctermfg=103 ctermbg=NONE cterm=NONE
   hi jsDocType guifg=#778899 guibg=NONE gui=NONE ctermfg=103 ctermbg=NONE cterm=NONE
   hi jsDocTypeNoParam guifg=#778899 guibg=NONE gui=NONE ctermfg=103 ctermbg=NONE cterm=NONE
