@@ -208,7 +208,7 @@ endfunction
 
 augroup MONOKAI_PHOENIX_FILETYPE_LOADER
   au!
-au Filetype purs call <SID>:pursMonokaiPhoenixFiletype()
-au Filetype javascript call <SID>:javascriptMonokaiPhoenixFiletype()
-au Filetype json call <SID>:jsonMonokaiPhoenixFiletype()
+au Filetype purs call <SID>pursMonokaiPhoenixFiletype()
+au Filetype javascript call <SID>javascriptMonokaiPhoenixFiletype()
+au Filetype json call <SID>jsonMonokaiPhoenixFiletype()
 augroup END
