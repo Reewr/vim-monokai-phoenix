@@ -133,6 +133,7 @@ function! s:javascriptMonokaiPhoenixFiletype()
   hi jsStringD guifg=#E6DB74 guibg=NONE gui=NONE ctermfg=185 ctermbg=NONE cterm=NONE
   hi jsStringS guifg=#E6DB74 guibg=NONE gui=NONE ctermfg=185 ctermbg=NONE cterm=NONE
   hi jsTemplateString guifg=#E6DB74 guibg=NONE gui=NONE ctermfg=185 ctermbg=NONE cterm=NONE
+  hi jsTemplateBraces guifg=#A6E22E guibg=NONE gui=NONE ctermfg=154 ctermbg=NONE cterm=NONE
   hi jsTaggedTemplate guifg=#E6DB74 guibg=NONE gui=NONE ctermfg=185 ctermbg=NONE cterm=NONE
   hi jsRegexpCharClass guifg=#E6DB74 guibg=NONE gui=NONE ctermfg=185 ctermbg=NONE cterm=NONE
   hi jsRegexpBoundary guifg=#E6DB74 guibg=NONE gui=NONE ctermfg=185 ctermbg=NONE cterm=NONE
