@@ -5,3 +5,4 @@ node_modules
 index.js
 package.json
 example.js
+create_screenshot.sh
