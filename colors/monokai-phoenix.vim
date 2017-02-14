@@ -35,6 +35,7 @@ let colors_name="monokai-phoenix"
 " Light Slate Blue GUI: #AE81FF, Term: 141
 " Light Slate Grey GUI: #778899, Term: 103
 " Maire            GUI: #222218, Term:  00
+" Midnight         GUI: #223344, Term:  23
 " Palm Leaf        GUI: #253B22, Term:  22
 " Peach Orange     GUI: #9D550F, Term: 130
 " Radical Red      GUI: #F92672, Term: 197
@@ -50,9 +51,11 @@ let colors_name="monokai-phoenix"
 
 " Popup Menu
 " --------------------------
-hi Pmenu guifg=#2F312B guibg=#F8F8F2 gui=NONE ctermfg=22 ctermbg=15 cterm=NONE
+hi Pmenu guifg=#F8F8F8 guibg=#223344 gui=NONE ctermfg=15 ctermbg=23 cterm=NONE
 hi PmenuSet guifg=#66D9EF guibg=#111111 gui=NONE ctermfg=81 ctermbg=233 cterm=NONE
-hi PMenuThumb guifg=#2F312B guibg=#8F908A gui=NONE ctermfg=22 ctermbg=102 cterm=NONE
+hi PmenuSBar guifg=#66D9EF guibg=#334455 gui=NONE ctermfg=81 ctermbg=59 cterm=NONE
+hi PmenuSel guifg=#66D9EF guibg=#334455 gui=NONE ctermfg=81 ctermbg=59 cterm=NONE
+hi PmenuThumb guifg=#778899 guibg=#778899 gui=NONE ctermfg=103 ctermbg=103 cterm=NONE
 
 " Editor
 " --------------------------
