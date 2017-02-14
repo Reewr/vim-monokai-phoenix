@@ -26,3 +26,9 @@ Example in terminal using 256 colors
 This colour scheme is still being adjusted as it was created from scratch using the Sublime version as inspiration. There are some differences, mostly due to personal taste.
 
 If you have some suggestions on how to improve the colour scheme, please make an issue.
+
+## Issues
+
+Below follows issues that are outside of my control.
+
+- [nvim-qt#145](https://github.com/equalsraf/neovim-qt/issues/145) does not apply terminal cursor colour correctly. This is specific to this application and I can therefore not apply a fix directly. There is however a fix for it: `hi TermCursor cterm=reverse gui=reverse` should display the cursor correctly.
