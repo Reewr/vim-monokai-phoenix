@@ -21,3 +21,8 @@ Example in GVIM / Terminal with True color
 Example in terminal using 256 colors
 ![vim-monokai-phoenix terminal](./screenshot-terminal.png)
 
+## About
+
+This colour scheme is still being adjusted as it was created from scratch using the Sublime version as inspiration. There are some differences, mostly due to personal taste.
+
+If you have some suggestions on how to improve the colour scheme, please make an issue.
