@@ -9,6 +9,40 @@ endif
 
 let colors_name="monokai-phoenix"
 
+" Below are the colors used for this colorscheme with their fullname
+"
+" Air Force Blue   GUI: #5F87AF, Term:  67
+" Bakers Chocolate GUI: #420E09, Term:  52
+" Biscay           GUI: #334455, Term:  59
+" Black            GUI: #111111, Term: 233
+" Black0           GUI: #000000, Term:  00
+" Bokara Grey      GUI: #211F1C, Term:  00
+" Carmine          GUI: #960020, Term:  88
+" Dark Tangerine   GUI: #FD971F, Term: 208
+" DEBUG            GUI: #FF00FF, Term:  13
+" DEBUG2           GUI: #FF0000, Term:  09
+" Deep Pink        GUI: #F92782, Term: 197
+" Eternity         GUI: #2F312B, Term:  22
+" Flint            GUI: #75715E, Term:  95
+" Heavy Metal      GUI: #49483E, Term:  59
+" Jumbo            GUI: #8F908A, Term: 102
+" Las Palmas       GUI: #A6E22E, Term: 112
+" Light Slate Blue GUI: #AE81FF, Term: 141
+" Light Slate Grey GUI: #778899, Term: 103
+" Maire            GUI: #222218, Term:  00
+" Palm Leaf        GUI: #253B22, Term:  22
+" Peach Orange     GUI: #9D550F, Term: 130
+" Radical Red      GUI: #F92672, Term: 197
+" Seal Brown       GUI: #3C1518, Term:  52
+" Spellbad         GUI: #F8F8F2, Term:  15
+" Spelllocal       GUI: #66D9EF, Term:  81
+" Turquoise Blue   GUI: #66D9EF, Term:  81
+" Vulcan           GUI: #383A3E, Term: 236
+" White            GUI: #F8F8F2, Term:  15
+" White Smoke      GUI: #F8F8F8, Term:  15
+" Wild Rice        GUI: #E6DB74, Term: 185
+" Witch Haze       GUI: #FFE972, Term: 221
+
 " Popup Menu
 " --------------------------
 hi Pmenu guifg=#2F312B guibg=#F8F8F2 gui=NONE ctermfg=22 ctermbg=15 cterm=NONE
