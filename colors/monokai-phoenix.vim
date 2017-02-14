@@ -71,6 +71,14 @@ hi MatchParen guifg=#111111 guibg=#E6DB74 gui=NONE ctermfg=233 ctermbg=185 cterm
 hi Pmenu guifg=#2F312B guibg=#F8F8F2 gui=NONE ctermfg=22 ctermbg=15 cterm=NONE
 hi PmenuSet guifg=#66D9EF guibg=#111111 gui=NONE ctermfg=81 ctermbg=233 cterm=NONE
 hi PMenuThumb guifg=#2F312B guibg=#8F908A gui=NONE ctermfg=22 ctermbg=102 cterm=NONE
+if has("nvim")
+
+  " Neovim Terminal
+  " --------------------------
+  hi TermCursor guifg=#111111 guibg=#F8F8F2 gui=NONE ctermfg=233 ctermbg=15 cterm=NONE
+  hi TermCursorNC guifg=#111111 guibg=#778899 gui=NONE ctermfg=233 ctermbg=103 cterm=NONE
+
+endif
 
 " General Highlighting
 " --------------------------
