@@ -1,6 +1,8 @@
 # vim-monokai-phoenix
 
-A different monokai phoenix theme for Vim, based on Monokai-phoenix found in the Javascript-Next Sublime package. It is specifically made to be optimized together with vim-javascript-syntax.
+A different monokai phoenix theme for Vim, based on Monokai-phoenix found in the Javascript-Next Sublime package.
+
+For the optimal JavaScript syntax experience, it is recommended to use [pangloss/vim-javascript](https://github.com/pangloss/vim-javascript) for your JS syntax needs.
 
 ## Installation
 
