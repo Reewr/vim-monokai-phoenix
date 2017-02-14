@@ -1,5 +1,10 @@
 " Maintainer: Alexander Imenes <alexander.imenes@gmail.com>
 " URL       : http://github.com/reewr
+"
+" Note: This file is auto-generated using a script of mine. If you have
+"       any complaints about the syntax or readability of this file,
+"       please make an issue.
+
 set background=dark
 hi clear
 
