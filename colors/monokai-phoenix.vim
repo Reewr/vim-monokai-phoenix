@@ -211,6 +211,8 @@ function! s:javascriptMonokaiPhoenixFiletype()
   hi jsClass guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
   hi jsAsyncKeyword guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
   hi jsGlobalObjects guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
+  hi jsGlobalNodeObjects guifg=#66D9EF guibg=NONE gui=italic ctermfg=81 ctermbg=NONE cterm=italic
+  hi jsThis guifg=#66D9EF guibg=NONE gui=italic ctermfg=81 ctermbg=NONE cterm=italic
   hi jsExceptions guifg=#F92672 guibg=NONE gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
   hi jsBuiltins guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
   hi jsFutureKeys guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
