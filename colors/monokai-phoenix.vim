@@ -1,9 +1,10 @@
 " Maintainer: Alexander Imenes <alexander.imenes@gmail.com>
-" URL       : http://github.com/reewr
+" Repository: http://github.com/reewr
 "
 " Note: This file is auto-generated using a script of mine. If you have
 "       any complaints about the syntax or readability of this file,
-"       please make an issue.
+"       please make an issue. You can also see the tool used to create
+"       this colourscheme at github.com/reewr/monokai-phoenix-builder
 
 set background=dark
 hi clear
@@ -14,7 +15,7 @@ endif
 
 let colors_name="monokai-phoenix"
 
-" Below are the colors used for this colorscheme with their fullname
+" Below are the colours used for this colourscheme with their fullname
 "
 " Air Force Blue   GUI: #5F87AF, Term:  67
 " Bakers Chocolate GUI: #420E09, Term:  52
