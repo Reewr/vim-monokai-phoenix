@@ -159,6 +159,15 @@ hi Ignore guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi Todo guifg=#F8F8F2 guibg=#111111 gui=bold ctermfg=15 ctermbg=233 cterm=bold
 hi Error guifg=#F8F8F2 guibg=#960020 gui=NONE ctermfg=15 ctermbg=88 cterm=NONE
 
+function! s:cppMonokaiPhoenixFiletype()
+  " vim-cpp-enhanced-highlight syntax
+  " --------------------------
+  hi cppSTLnamespace guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
+  hi cppSTLtype guifg=#66D9EF guibg=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
+  hi cppModifier guifg=#F92672 guibg=NONE gui=NONE ctermfg=197 ctermbg=NONE cterm=NONE
+
+endfunction
+
 function! s:javascriptMonokaiPhoenixFiletype()
   " vim-javascript syntax
   " --------------------------
@@ -266,6 +275,7 @@ endfunction
 augroup MONOKAI_PHOENIX_FILETYPE_LOADER
   au!
   au Filetype purs call <SID>pursMonokaiPhoenixFiletype()
-  au Filetype javascript call <SID>javascriptMonokaiPhoenixFiletype()
+  au Filetype cpp call <SID>cppMonokaiPhoenixFiletype()
   au Filetype json call <SID>jsonMonokaiPhoenixFiletype()
+  au Filetype javascript call <SID>javascriptMonokaiPhoenixFiletype()
 augroup END
